@@ -1,6 +1,7 @@
 
 #include "test.h"
 #include <iostream>
+#include "windows.h"
 
 using namespace std;
 
@@ -12,7 +13,6 @@ int fact(int number)
 IMPLEMENT_TEST_SYSTEM
 
 DECLARE_TEST_CASE(math)
-
 
 TEST_BEGIN(fact_1, math)
 {
